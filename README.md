@@ -5,6 +5,8 @@ A cloud-native solution for automating medical imaging diagnosis using AI/ML mod
 ![Architecture Diagram](./docs/architecture.png)  
 *Diagram created with [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/)*
 
+![myfinalproject drawio](https://github.com/user-attachments/assets/9a07e173-de90-448e-a52d-f42658a42f46)
+
 
 
 ## Features
