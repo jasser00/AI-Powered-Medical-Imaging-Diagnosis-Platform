@@ -36,11 +36,13 @@ A cloud-native solution for automating medical imaging diagnosis using AI/ML mod
 Configure AWS CLI with your credentials:
 ```bash
 aws configure
+```
 
 #### 2. Initialize Terraform
 Downloads required providers and modules:
 ```bash
 terraform init
+```
 
 #### 3. Configure Variables
 Edit terraform.tfvars:
@@ -49,10 +51,10 @@ Edit terraform.tfvars:
 Review changes and confirm with yes:
 ```bash
 terraform apply
+```
 
 
-
-5. Verify Resources
+#### 5. Verify Resources
 Check AWS Console for:
 
 S3 Buckets (static content & medical images)
