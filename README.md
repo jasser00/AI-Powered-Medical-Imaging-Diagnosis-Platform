@@ -32,5 +32,52 @@ A cloud-native solution for automating medical imaging diagnosis using AI/ML mod
 
 ## Installation & Setup
 
+#### 1. Configure AWS Credentials
+Configure AWS CLI with your credentials:
+```bash
+aws configure
 
+#### 2. Initialize Terraform
+Downloads required providers and modules:
+```bash
+terraform init
+
+#### 3. Configure Variables
+Edit terraform.tfvars:
+
+#### 4. Apply Infrastructure Configuration
+Review changes and confirm with yes:
+```bash
+terraform apply
+
+
+
+5. Verify Resources
+Check AWS Console for:
+
+S3 Buckets (static content & medical images)
+
+CloudFront Distribution
+
+Lambda/API Gateway services
+
+EC2 Spot Instances (Auto Scaling Group)
+
+SNS/SQS event pipeline
+
+
+🔒 Security Measures
+IAM Policies: Least-privilege principle enforced
+
+Data Encryption:
+
+At-rest & in-transit encryption (S3/EC2)
+
+KMS for sensitive data
+
+Monitoring:
+
+CloudWatch for resource logging
+
+CloudTrail for API call auditing
 
