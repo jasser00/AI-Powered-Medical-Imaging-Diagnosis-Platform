@@ -45,7 +45,7 @@ terraform init
 ```
 
 #### 3. Configure Variables
-Edit terraform.tfvars:
+Edit terraform.tfvars
 
 #### 4. Apply Infrastructure Configuration
 Review changes and confirm with yes:
