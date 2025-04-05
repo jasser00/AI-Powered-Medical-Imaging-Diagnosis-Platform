@@ -32,7 +32,5 @@ A cloud-native solution for automating medical imaging diagnosis using AI/ML mod
 
 ## Installation & Setup
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/your-username/aws-medical-imaging-platform.git
-cd aws-medical-imaging-platform
+
+
