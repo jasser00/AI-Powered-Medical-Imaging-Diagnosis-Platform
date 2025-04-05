@@ -2,7 +2,7 @@
 
 A cloud-native solution for automating medical imaging diagnosis using AI/ML models. Built on AWS with Terraform for infrastructure-as-code (IaC), this project enables secure, HIPAA-compliant uploads of medical images (MRI, CT scans, X-rays) and provides AI-generated diagnostic reports with real-time notifications.
 
-![Architecture Diagram](./docs/architecture.png)  
+
 *Diagram created with [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/)*
 
 ![myfinalproject drawio](https://github.com/user-attachments/assets/9a07e173-de90-448e-a52d-f42658a42f46)
